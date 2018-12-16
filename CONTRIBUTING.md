@@ -1,6 +1,6 @@
 # Contributing
 
-Welcome to Kubernetes! If you are interested in contributing to the [Kubernetes code repo](README.md) then checkout the [Contributor's Guide](https://git.k8s.io/community/contributors/guide/)
+Welcome to Kubernetes! If you are interested in contributing to the [Kubernetes code repo](README.md.backup) then checkout the [Contributor's Guide](https://git.k8s.io/community/contributors/guide/)
 
 The [Kubernetes community repo](https://github.com/kubernetes/community) contains information on how the community is organized and other information that is pertinent to contributing.
 
