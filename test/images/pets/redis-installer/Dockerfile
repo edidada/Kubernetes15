@@ -21,7 +21,7 @@ CROSS_BUILD_COPY qemu-QEMUARCH-static /usr/bin/
 # TODO: just use standard redis when there is one for 3.2.0.
 RUN clean-install wget make gcc libc-dev
 
-# See README.md
+# See README.md.md.backup
 RUN wget -qO /redis-3.2.0.tar.gz http://download.redis.io/releases/redis-3.2.0.tar.gz && \
     tar -xzf /redis-3.2.0.tar.gz -C /tmp/ && rm /redis-3.2.0.tar.gz
 

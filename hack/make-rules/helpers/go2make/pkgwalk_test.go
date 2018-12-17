@@ -113,12 +113,12 @@ func Test_readDirInfos(t *testing.T) {
 		},
 		{
 			dir:      "./testdata/dir-without-gofiles",
-			expected: map[string]bool{"README": true},
+			expected: map[string]bool{"README.md": true},
 		},
 		{
 			dir: "./testdata/dir-with-gofiles",
 			expected: map[string]bool{
-				"README":      true,
+				"README.md":      true,
 				"foo.go":      true,
 				"bar.go":      true,
 				"subdir":      true,
@@ -178,12 +178,12 @@ func Test_readDirNames(t *testing.T) {
 		},
 		{
 			dir:      "./testdata/dir-without-gofiles",
-			expected: map[string]bool{"README": true},
+			expected: map[string]bool{"README.md": true},
 		},
 		{
 			dir: "./testdata/dir-with-gofiles",
 			expected: map[string]bool{
-				"README":      true,
+				"README.md":      true,
 				"foo.go":      true,
 				"bar.go":      true,
 				"subdir":      true,

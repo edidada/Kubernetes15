@@ -590,7 +590,7 @@ func writeFile(name, body string) error {
 }
 
 const (
-	// Readme contains the README text.
+	// Readme contains the README.md text.
 	Readme = `
 This directory tree is generated automatically by godep.
 
